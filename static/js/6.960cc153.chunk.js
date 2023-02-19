@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkpets_project_frontend=self.webpackChunkpets_project_frontend||[]).push([[6],{6:function(e,n,t){t.r(n),t.d(n,{NotFound:function(){return c}});var r=t(184),c=function(){return(0,r.jsxs)("main",{style:{textAlign:"center"},children:[(0,r.jsx)("b",{style:{fontSize:64},children:"404"}),(0,r.jsx)("p",{children:"Sorry, we couldn't find that page :("})]})}}}]);
+//# sourceMappingURL=6.960cc153.chunk.js.map
