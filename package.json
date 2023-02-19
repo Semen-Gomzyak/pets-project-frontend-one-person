@@ -41,8 +41,7 @@
     "eject": "react-scripts eject",
     "lint:js": "eslint src/**/*.{js,jsx}",
     "prepare": "husky install",
-    "lint-staged": "lint-staged",
-    "deploy": "vercel --prod"
+    "lint-staged": "lint-staged"
   },
   "eslintConfig": {
     "extends": [
@@ -76,15 +75,5 @@
       "*.js": "eslint --cache --fix",
       "*.{js,css,jsx,json,md}": "prettier --write"
     }
-  },
-  "routes": [
-    {
-      "src": "/(.*).(js|css|png|jpe?g|gif|svg)",
-      "dest": "/$1.$2"
-    },
-    {
-      "src": "/*",
-      "dest": "/index.html"
-    }
-  ]
+  }
 }
