@@ -3,7 +3,7 @@ import { Outlet } from 'react-router-dom';
 import { useMedia } from 'react-use';
 import { Logo } from 'components/Logo/Logo';
 import { Button } from 'components/Button/PrimaryButton/Button';
-import { Header, Link, AuthContainer, AuthLink } from './SharedLayout.styled';
+import { Header, Link, AuthContainer } from './SharedLayout.styled';
 import { ContainerPage } from 'components/Container/Container';
 import { MobButton } from 'components/Button/MobButton/MobButton';
 
