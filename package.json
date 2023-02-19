@@ -75,5 +75,15 @@
       "*.js": "eslint --cache --fix",
       "*.{js,css,jsx,json,md}": "prettier --write"
     }
-  }
+  },
+  "routes": [
+    {
+      "src": "/(.*).(js|css|png|jpe?g|gif|svg)",
+      "dest": "/$1.$2"
+    },
+    {
+      "src": "/*",
+      "dest": "/index.html"
+    }
+  ]
 }
