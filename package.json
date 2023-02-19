@@ -2,7 +2,7 @@
   "name": "pets-project-frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://semen-gomzyak.github.io/pets-project-frontend-one-person/",
+  "homepage": "https://pets-project-frontend-one-person.vercel.app/",
   "dependencies": {
     "@hookform/resolvers": "^2.9.7",
     "@reduxjs/toolkit": "^1.8.5",
